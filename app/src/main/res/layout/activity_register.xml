@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    tools:context=".Register">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_chaomungban"
+        android:textSize="20sp"
+        android:textColor="#2196F3"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_dangkytaikhoan"
+        android:textSize="30sp"
+        android:textColor="#2C2C2C"/>
+
+    <EditText
+        android:id="@+id/edt_username"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#CACACA"
+        android:gravity="start"
+        android:layout_marginTop="15dp"
+        android:hint="Nhập username"/>
+
+    <EditText
+        android:id="@+id/edt_password"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#CACACA"
+        android:gravity="start"
+        android:layout_marginTop="15dp"
+        android:hint="Nhập password"/>
+
+    <EditText
+        android:id="@+id/edt_retype_password"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#CACACA"
+        android:gravity="start"
+        android:layout_marginTop="15dp"
+        android:hint="Nhập lại password"/>
+
+    <Button
+        android:id="@+id/btn_dangky"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#2196F3"
+        android:textAllCaps="true"
+        android:text="Đăng ký"/>
+
+    <Button
+        android:id="@+id/btn_trove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#424242"
+        android:textAllCaps="true"
+        android:text="Trở về"/>
+
+
+</LinearLayout>

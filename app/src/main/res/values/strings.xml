@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AsmGD1_ph35172</string>
+    <string name="txt_dangkytaikhoan">Đăng ký tài khoản</string>
+    <string name="txt_chaomungban">Chào mừng bạn</string>
+    <string name="txt_dangnhap">Đăng nhập\n</string>
+    <string name="txt_chaomungbantrolai">Chào mừng trở lại</string>
+</resources>
